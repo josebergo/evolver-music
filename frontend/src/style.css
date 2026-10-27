@@ -1,0 +1,33 @@
+:root {
+  --bg: #14161d;
+  --card: #1c1f29;
+  --card-border: #2a2e3c;
+  --text: #e8eaf2;
+  --text-dim: #9aa1b5;
+  --accent: #8b7cf6;
+  --accent-2: #4ecdc4;
+  --danger: #ff7b7b;
+  font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(1200px 600px at 20% -10%, #232840 0%, var(--bg) 55%);
+  color: var(--text);
+}
+
+::selection {
+  background: rgba(139, 124, 246, 0.4);
+}
